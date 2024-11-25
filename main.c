@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-/* #include <stdlib.h> */
+#include <stdlib.h>
   
 #include "X_include.h"
   
@@ -126,7 +126,7 @@ void quit(Widget w,caddr_t client_data,caddr_t call_data)
   exit(0);
 }
 
-void main(int argc,char *argv[])
+int main(int argc,char *argv[])
 {
   int i,arg_num,x,y;
   Arg args[10];

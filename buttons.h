@@ -7,6 +7,7 @@
 
 /* (defined buttons.c) */
 extern void button_callback(void);
+extern void make_button(void);
 extern void make_button_callback(void);
 extern void Pause(Widget,caddr_t,caddr_t);
 extern void Run(Widget,caddr_t,caddr_t);
