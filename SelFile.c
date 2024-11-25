@@ -47,6 +47,9 @@ static char rcsid[] = "$Header: SelFile.c,v 1.15 90/01/29 13:48:28 erik Exp $";
 
 #include <stdio.h>
 #include <sys/param.h>
+
+#include "XsraSelfile.h"
+
 #include <X11/cursorfont.h>
 #include <X11/Intrinsic.h>
 #include <X11/StringDefs.h>
