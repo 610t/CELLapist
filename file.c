@@ -1,4 +1,11 @@
+#include "stdlib.h"
+
+#include "SelFile.h"
+
 #include "X_include.h"
+
+#include "window.h"
+#include "buttons.h"
 
 #include "globals.h"
 #include "macros.h"

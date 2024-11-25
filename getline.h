@@ -1,1 +1,1 @@
-extern char *getline(FILE *fp);
+extern char *my_getline(FILE *fp);

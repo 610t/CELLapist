@@ -8,7 +8,7 @@ void skipline(FILE *fp)
     c = getc(fp);
 }
 
-char *getline(FILE *fp)
+char *my_getline(FILE *fp)
 {
   int i,j;
   char c;

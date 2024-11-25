@@ -195,7 +195,7 @@ void GenomeLoad(char *filename,GenoData *genome)
     exit(0);
   }
 
-  sscanf( getline(fp) ,"%d %d",&(genome->states),&(genome->geno_length));
+  sscanf( my_getline(fp) ,"%d %d",&(genome->states),&(genome->geno_length));
 
 /*
   fscanf(fp,"%d %d",&(genome->states),&(genome->geno_length));
