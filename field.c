@@ -1,4 +1,7 @@
+#include "stdlib.h"
+
 #include "field.h"
+#include "window.h"
 
 #include "globals.h"
 
