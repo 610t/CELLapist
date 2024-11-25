@@ -1,6 +1,9 @@
+#include "stdlib.h"
+
 #include "X_include.h"
 
 #include "buttons.h"
+#include "window.h"
 
 /* (defined main.c) */
 extern void quit(Widget,caddr_t,caddr_t);
